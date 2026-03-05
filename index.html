@@ -12,7 +12,23 @@
 			<nav>
 				<a href="https://mail.google.com">Gmail</a>
 				<a href="https://google.com/imghp">Images</a>
-				<button class="menu-icone">⠿</button>
+				<button class="menu-icone">
+					<svg width="22" height="22" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	  					<g fill="#6c757d">
+	    						<circle cx="20" cy="20" r="10" />
+	   						<circle cx="50" cy="20" r="10" />
+	    						<circle cx="80" cy="20" r="10" />
+	    
+	    						<circle cx="20" cy="50" r="10" />
+	    						<circle cx="50" cy="50" r="10" />
+	    						<circle cx="80" cy="50" r="10" />
+	    
+	    						<circle cx="20" cy="80" r="10" />
+	    						<circle cx="50" cy="80" r="10" />
+	    						<circle cx="80" cy="80" r="10" />
+	  					</g>
+					</svg>
+				</button>
 				<button class="btn-login">Connexion</button>
 			</nav>
 		</header>
@@ -23,13 +39,35 @@
 			</div>
 
 			<div class="search-section">
-				<div class="search-bar">
-					<span class="search-icon">🔍</span>
-					<input type="text">
-					<span class="mic-icon">🎤</span>
-				</div>
+				<button class="ajout-fichier">+</button>
+				<input type="text" class="search-bar">
+				<button class="micro">
+					<svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  						<rect x="9" y="2" width="6" height="11" rx="3" fill="#5f6368" />					
+						<path d="M19 10V11C19 14.866 15.866 18 12 18C8.13401 18 5 14.866 5 11V10" stroke="#5f6368" stroke-width="2" stroke-linecap="round" />
+  						<line x1="12" y1="18" x2="12" y2="22" stroke="#5f6368" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</button>
+				<button class="lens">
+					<svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  						<path d="M7 5L5.5 7H4C2.9 7 2 7.9 2 9V17C2 18.1 2.9 19 4 19H20C21.1 19 22 18.1 22 17V9C22 7.9 21.1 7 20 7H18.5L17 5H7Z" stroke="#5f6368" stroke-width="2" stroke-linejoin="round"/>
+  						<circle cx="12" cy="13" r="3" stroke="#5f6368" stroke-width="2"/>
+  						<circle cx="17.5" cy="10.5" r="1" fill="#5f6368"/>
+					</svg>
+				</button>
+				<button class="IA">
+					<svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  						<circle cx="11" cy="11" r="7" stroke="#9aa0a6" stroke-width="2"/>
+  						<path d="M20 20L16.65 16.65" stroke="#9aa0a6" stroke-width="2" stroke-linecap="round"/>
+					</svg>Mode IA
+				</button>
 			</div>
 
+			<div class="recherche-chance">
+				<button class="recherche">Recherche Google</button>
+				<button class="chance">J'ai de la chance</button>
+			</div>
+			
 			<div class="language-section">
 				Google disponible en : <a href="https://google.com/en">English</a>
 			</div>
